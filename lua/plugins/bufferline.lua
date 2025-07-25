@@ -19,6 +19,10 @@ return {
     -- Atajos útiles
     vim.keymap.set("n", "<Tab>", "<cmd>BufferLineCycleNext<CR>", { desc = "Siguiente buffer" })
     vim.keymap.set("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Buffer anterior" })
-  end,
+    -- Cerrar el buffer actual
+    vim.keymap.set("n", "<leader>c", "<cmd>bdelete<CR>", { desc = "Cerrar buffer actual" })
+
+   end,
+
 }
 
