@@ -2,9 +2,15 @@ return {
   "mason-org/mason-lspconfig.nvim",
   opts = {
     ensure_installed = {
-      "lua_ls", "pyright", "html", "cssls","jdtls",
+      "lua_ls", 
+			"pyright", 
+			"html", 
+			"cssls",
+			"jdtls",
+			"rust_analyzer",
     },
-    automatic_enable = true, -- ✅ ESTA es la forma correcta
+    automatic_enable = true,
+
   },
   dependencies = {
     { "mason-org/mason.nvim", opts = {} },

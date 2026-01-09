@@ -13,7 +13,7 @@ return {
       "  ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║",
       "  ██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║",
       "  ╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝",
-      "        Neovim personalizado        ",
+      "        Neovim hecho por XINTROZ        ",
     }
 
     dashboard.section.buttons.val = {
@@ -24,7 +24,7 @@ return {
     }
 
     dashboard.section.footer.val = function()
-      return "🚀 Neovim cargado con Lazy.nvim"
+      return " Neovim cargado con Lazy.nvim"
     end
 
     alpha.setup(dashboard.opts)
